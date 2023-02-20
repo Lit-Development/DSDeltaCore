@@ -3,12 +3,12 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1"
   spec.summary      = "Nintendo DS plug-in for Delta emulator."
   spec.description  = "iOS framework that wraps DeSmuME to allow playing Nintendo DS games with Delta emulator."
-  spec.homepage     = "https://github.com/rileytestut/DSDeltaCore"
+  spec.homepage     = "https://github.com/Lit-Development/DSDeltaCore"
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/rileytestut/DSDeltaCore.git" }
+  spec.source       = { :git => "https://github.com/Lit-Development/DSDeltaCore.git" }
 
-  spec.author             = { "Riley Testut" => "riley@rileytestut.com" }
-  spec.social_media_url   = "https://twitter.com/rileytestut"
+spec.author             = { "Chris Rittenhouse" => "dev@litritt.com" }
+  spec.social_media_url   = "https://twitter.com/lit_ritt"
   
   spec.source_files  = "DSDeltaCore/**/*.{swift}", "DSDeltaCore/Bridge/DSEmulatorBridge.mm", "DSDeltaCore/Types/DSTypes.{h,m}", "desmume/desmume/src/*.{h,hpp}", "desmume/desmume/src/libretro-common/include/*.{h,hpp}", "desmume/desmume/src/libretro-common/include/math/*.{h,hpp}", "desmume/desmume/src/metaspu/**/*.{h,hpp}", "libDeSmuME/*.{h,hpp}"
   spec.public_header_files = "DSDeltaCore/Types/DSTypes.h", "DSDeltaCore/Bridge/DSEmulatorBridge.h"
