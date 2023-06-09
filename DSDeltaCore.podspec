@@ -14,7 +14,7 @@ spec.author             = { "Chris Rittenhouse" => "dev@litritt.com" }
   spec.public_header_files = "DSDeltaCore/Types/DSTypes.h", "DSDeltaCore/Bridge/DSEmulatorBridge.h"
   spec.header_mappings_dir = ""
   spec.resource_bundles = {
-    "DSDeltaCore" => ["DSDeltaCore/**/*.deltamapping", "DSDeltaCore/**/*.deltaskin"]
+    "DSDeltaCore" => ["DSDeltaCore/**/*.deltamapping", "DSDeltaCore/**/*.ignitedskin"]
   }
   
   spec.dependency 'DeltaCore'
