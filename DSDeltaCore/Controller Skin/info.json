@@ -1,6 +1,6 @@
 {
-  "name": "Standard DS Test",
-  "identifier": "com.delta.ds.standard.test",
+  "name": "Standard DS",
+  "identifier": "com.delta.ds.standard",
   "gameTypeIdentifier": "com.rileytestut.delta.game.ds",
   "debug": false,
   "representations": {
