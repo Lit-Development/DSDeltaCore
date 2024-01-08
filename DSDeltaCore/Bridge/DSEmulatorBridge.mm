@@ -356,10 +356,4 @@ u32 DLTAGetAudioSpace()
     return (1.0 / 60.0);
 }
 
-#pragma mark - Palette -
-
-- (void)updatePalette
-{
-}
-
 @end
