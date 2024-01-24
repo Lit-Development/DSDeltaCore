@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "Nintendo DS plug-in for Delta emulator."
   spec.description  = "iOS framework that wraps DeSmuME to allow playing Nintendo DS games with Delta emulator."
   spec.homepage     = "https://github.com/LitRitt/DSDeltaCore"
-  spec.platform     = :ios, "14.0"
+  spec.platform     = :ios, "16.0"
   spec.source       = { :git => "https://github.com/LitRitt/DSDeltaCore.git" }
 
 spec.author             = { "Chris Rittenhouse" => "dev@litritt.com" }
