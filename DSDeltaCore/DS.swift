@@ -47,7 +47,7 @@ public struct DS: DeltaCoreProtocol
     public static let core = DS()
     
     public var name: String { "DSDeltaCore" }
-    public var identifier: String { "com.rileytestut.DSDeltaCore" }
+    public var identifier: String { "com.litritt.DSDeltaCore" }
     
     public var gameType: GameType { GameType.ds }
     public var gameInputType: Input.Type { DSGameInput.self }

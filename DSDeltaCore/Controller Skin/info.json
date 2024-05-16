@@ -1,7 +1,7 @@
 {
   "name": "Standard DS",
-  "identifier": "com.delta.ds.standard",
-  "gameTypeIdentifier": "com.rileytestut.delta.game.ds",
+  "identifier": "com.ignited.ds.standard",
+  "gameTypeIdentifier": "com.litritt.ignited.game.ds",
   "debug": false,
   "representations": {
     "iphone": {

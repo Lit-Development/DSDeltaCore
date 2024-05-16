@@ -8,4 +8,4 @@
 
 #import "DSTypes.h"
 
-GameType const GameTypeDS = @"com.rileytestut.delta.game.ds";
+GameType const GameTypeDS = @"com.litritt.ignited.game.ds";
